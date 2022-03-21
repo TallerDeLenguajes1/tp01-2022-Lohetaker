@@ -42,6 +42,6 @@ ejemplo/  # Ignoramos la carpeta "Ejemplo"
 ```
 ## Fuentes:
 
--[FreeCodeCamp] (https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agregar-a-tu-repositorio/)
--[DesarrolloWeb] (https://desarrolloweb.com/articulos/archivo-gitignore.html)
+- [FreeCodeCamp](https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agregar-a-tu-repositorio/)
+- [DesarrolloWeb](https://desarrolloweb.com/articulos/archivo-gitignore.html/)
 
