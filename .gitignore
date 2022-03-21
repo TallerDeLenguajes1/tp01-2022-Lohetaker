@@ -1,0 +1,11 @@
+*.app
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+tp1_1  #El Archivo que debemos ignorar es el ejecutable.
