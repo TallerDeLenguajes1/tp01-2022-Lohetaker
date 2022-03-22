@@ -40,6 +40,31 @@ Por ultimo, si queremos usar comentarios dentro del archivo .gitignore, debemos 
 ejemplo/  # Ignoramos la carpeta "Ejemplo"
 
 ```
+En este caso, vamos a ignorar el archivo tp1_1, que es un binario ejecutable.
+
+
+# Direcciones
+
+_Ejercicio 2, Nota: Si resolvio correctamente los puntos II y III, notara que el resultado es el mismo, ¿a que se debe? ¿Que obtiene en el punto IV? ¿Es igual que los anteriores? ¿Por que?_
+
+## Respuesta:
+
+### ¿Porque son iguales?
+
+Cada variable declarada, incluidos los punteros, ocupan un espacio en la memoria. Nosotros somos capaces de acceder y mostrar ese espacio mediante el uso de el operador unario de direccion "&" (Ampersand) y, para mostrarlo, usamos el modificador %p.
+
+Al mismo tiempo, debemos recordar la funcion principal de una variable puntero, la cual es almacenar una direccion de memoria de un dato o de una variable que contenga un dato.
+Por ende, si nosotros declaramos un puntero que apunte hacia una direccion de memoria de una variable y procedemos a mostrar el puntero en pantalla, nos mostrara la direccion de memoria de la variable a la cual apunta el puntero.
+
+De la misma forma, si nosotros mostramos la direccion de memoria de la variable directamente usando el operador unario de direccion, se mostrara esa misma direccion.
+
+### ¿Que obtenemos en el punto IV?
+
+Al usar el operador unario de direccion en el puntero, nos devolvera la direccion de memoria en la que se almacena dicho puntero.
+
+#### ¿Es igual que los anteriores?
+No, puesto que un puntero es una variable y por ocupa una direccion de memoria unica y que no puede ser identica a la de otra variable.
+
 ## Fuentes:
 
 - [FreeCodeCamp](https://www.freecodecamp.org/espanol/news/gitignore-explicado-que-es-y-como-agregar-a-tu-repositorio/)
